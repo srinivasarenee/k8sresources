@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: envdemo
+spec:
+  containers:
+   - name: nginx
+     image: nginx
+     env: 
+      - name: project
+        value: roboshop
+      - name: environment
+        value: dev 
+      - name: layer
+        value: forntend
