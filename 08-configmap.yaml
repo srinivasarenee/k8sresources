@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap
+
+data:
+  course: "DevOps"
+  topic: "k8s"
+  duration: "3 weeks"
